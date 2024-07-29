@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-transform: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #d1dcf2;
+  font-family: sans-serif;
+  /* height: 50000px; */
+}
+
+.navbar {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.09);
+  /* border-radius: 16px; */
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.navbar_menu {
+  color: #4d596c;
+  text-transform: uppercase;
+}
+
+.brand {
+  user-select: none;
+  cursor: pointer;
+}
+
+.pushReleaseFromBottom {
+  animation-name: pushReleaseFromBottom;
+}
+@keyframes pushReleaseFromBottom {
+  from {
+    transform: translateY(100%);
+  }
+  30% {
+    transform: translateY(-100px);
+  }
+}
+
+.card-1 {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.8px);
+  -webkit-backdrop-filter: blur(5.8px);
+}
+
+.card-2 {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.8px);
+  -webkit-backdrop-filter: blur(5.8px);
+}
+
+.p-text {
+  color: #4d596c;
+}
+
+.pepe {
+  animation-name: pepe;
+  animation-iteration-count: infinite;
+  user-select: none;
+}
+@keyframes pepe {
+  from,
+  33%,
+  66%,
+  to {
+    transform: rotate(4deg);
+  }
+  16%,
+  50%,
+  83% {
+    transform: rotate(-4deg);
+  }
+}
+
+img {
+  cursor: pointer;
+  user-select: none;
+}
+
+.bulat {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.29);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.8px);
+  -webkit-backdrop-filter: blur(5.8px);
+}
+
+.about {
+  background-color: #ededee;
+}
+
+.slogan {
+  color: #273c75;
+}
+
+.caption {
+  color: #6b7688;
+}
+
+.title {
+  color: #030303;
+}
+
+.more {
+  background-color: rgba(255, 255, 255, 0.416);
+  color: #030303;
+}
+
+.more:hover {
+  transition: all .3s;
+  background-color: #273c75;
+  color: #ededee;
+}
