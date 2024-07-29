@@ -15,7 +15,7 @@ html {
 
 body {
   overflow-x: hidden;
-  background-color: #b4c1dc;
+  background-color: #d1dcf2;
   font-family: sans-serif;
   /* height: 50000px; */
 }
@@ -107,7 +107,7 @@ img {
 
 .about {
   /* background-color: #ededee; */
-
+  
   background-image: url("../src/assets/noisy.png");
   background-size: cover;
   background-position: center;
@@ -131,7 +131,7 @@ img {
 }
 
 .more:hover {
-  transition: all 0.3s;
+  transition: all .3s;
   background-color: #273c75;
   color: #ededee;
 }
