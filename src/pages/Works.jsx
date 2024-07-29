@@ -45,7 +45,7 @@ export default function Works() {
             ) : (
               visibleCount < dataSkill.length && (
                 <button onClick={handleLoadMore} className="more font-bold text-[13px] py-1.5 px-4 rounded-lg bg-blue-500 text-white">
-                  Load More
+                  Show More
                 </button>
               )
             )}
