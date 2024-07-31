@@ -2,6 +2,7 @@ import React from "react";
 import About from "../pages/About";
 import Works from "../pages/Works";
 import Skill from "../pages/Skill";
+import Contact from "../pages/Contact";
 import Navbar from "../components/Navbar";
 import Jumbotron from "./Jumbotron";
 
@@ -34,6 +35,12 @@ function Home() {
         <Skill />
       </section>
       {/* end skill */}
+
+      {/* contact */}
+      <section id="contact">
+        <Contact />
+      </section>
+      {/* end contact */}
     </>
   );
 }
