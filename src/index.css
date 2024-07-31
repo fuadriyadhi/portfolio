@@ -107,7 +107,7 @@ img {
 
 .about {
   /* background-color: #ededee; */
-  
+
   background-image: url("../src/assets/noisy.png");
   background-size: cover;
   background-position: center;
@@ -131,7 +131,19 @@ img {
 }
 
 .more:hover {
-  transition: all .3s;
+  transition: all 0.3s;
   background-color: #273c75;
   color: #ededee;
+}
+
+.experience p {
+  color: #313bac;
+}
+
+.experience h2 {
+  color: #030303;
+}
+
+.cpt {
+  color: #5a616c;
 }
