@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
   return (
@@ -10,6 +11,7 @@ export default function Contact() {
               contact
             </h1>
           </div>
+          <ContactForm />
         </div>
       </div>
     </>
