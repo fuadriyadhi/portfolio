@@ -61,13 +61,13 @@ export default function ContactForm() {
             ref={buttonRef}
           >
             <Mail
-              className="h-6 w-6 transition-transform duration-200"
+              className="h-6 w-6 transition-all duration-200"
               style={{
                 transform: `translate(${pos.x * 0.2}px, ${pos.y * 0.2}px)`,
               }}
             />
             <span
-              className="transition-transform duration-200"
+              className="duration-200 transition-all"
               style={{
                 transform: `translate(${pos.x * 0.2}px, ${pos.y * 0.2}px)`,
               }}
