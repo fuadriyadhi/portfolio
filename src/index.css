@@ -147,7 +147,9 @@ img {
   color: #5a616c;
 }
 
-@media screen and (max-width: 450px) {
+
+/* Gaya untuk tablet */
+@media screen and (min-width: 200px) and (max-width: 896px) {
   .navbar_menu {
     color: #4d596c;
     text-transform: uppercase;
