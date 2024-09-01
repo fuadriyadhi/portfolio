@@ -24,7 +24,7 @@ body {
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.09);
   /* border-radius: 16px; */
-  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1); */
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
@@ -107,7 +107,6 @@ img {
 
 .about {
   /* background-color: #ededee; */
-
   background-image: url("../src/assets/noisy.png");
   background-size: cover;
   background-position: center;
@@ -146,4 +145,46 @@ img {
 
 .cpt {
   color: #5a616c;
+}
+
+@media screen and (max-width: 450px) {
+  .navbar_menu {
+    color: #4d596c;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  #Homee {
+    margin-top: 70px;
+  }
+
+  .one {
+    align-items: center;
+  }
+
+  .two {
+    top: 0px;
+  }
+  .two img {
+    top: -100px;
+  }
+  .three .three-c {
+    max-width: 150px;
+  }
+
+  .two_c {
+    top: 100px;
+  }
+
+  .cpt {
+    width: 20rem;
+  }
+
+  .exp-3 {
+    margin-bottom: 50px;
+  }
+
+  .contact {
+    margin-bottom: 100px;
+  }
 }

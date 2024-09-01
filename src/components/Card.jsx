@@ -11,11 +11,11 @@ function Card() {
   ];
   return (
     <>
-      <div className="flex justify-center gap-8 space-x-4">
+      <div className="flex flex-wrap justify-center gap-8 space-x-4">
         {cards.map((card, index) => (
           <div key={index} className="max-w-sm" data-aos="fade-up" data-aos-duration="1000">
             <div className="transform transition-transform duration-500 hover:scale-105">
-              <img className="w-[250px] rounded-md" src={card.image} alt={card.caption} />
+              <img className="w-[200px] rounded-md" src={card.image} alt={card.caption} />
               <div className="py-4">
                 <h3 className="title font-bold text-[16px]">{card.title}</h3>
                 <p className="caption text-[12px] w-[250px]">{card.caption}</p>

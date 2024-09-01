@@ -42,6 +42,21 @@ export default function ContactForm() {
     }
   };
 
+  //button
+  const [pos, setPos] = useState({ x: 0, y: 0 });
+  const buttonRef = useRef(null);
+
+  const handleMouseMove = (e) => {
+    const rect = buttonRef.current.getBoundingClientRect();
+    const x = e.clientX - rect.left - rect.width / 2;
+    const y = e.clientY - rect.top - rect.height / 2;
+    setPos({ x, y });
+  };
+
+  const handleMouseLeave = () => {
+    setPos({ x: 0, y: 0 });
+  };
+
   return (
     <>
       <form ref={formRef} onSubmit={handleSubmit} name="submit-to-google-sheet" className="max-w-lg">
@@ -85,13 +100,32 @@ export default function ContactForm() {
           {warn && <div className="warn text-red-500">Please fill out all fields.</div>}
         </div>
         <div className="flex gap-4 mt-10">
-          <button type="submit" className="btn-kirim bg-zinc-800 text-white hover:bg-zinc-700 inline-flex items-center gap-x-2 py-1.5 px-8 rounded-md text-[14px] text-center relative overflow-hidden" disabled={loading}>
+          <button
+            type="submit"
+            onMouseMove={handleMouseMove}
+            onMouseLeave={handleMouseLeave}
+            ref={buttonRef}
+            className="btn-kirim bg-zinc-800 text-white hover:bg-zinc-700 inline-flex items-center gap-x-2 py-1.5 px-8 rounded-md text-[14px] text-center relative overflow-hidden"
+            disabled={loading}
+          >
             {loading ? (
               <Loader className="h-6 w-6 animate-spin" />
             ) : (
               <>
-                <Mail className="h-6 w-6" />
-                <span>Send</span>
+                <Mail
+                  className="h-6 w-6 transition-all duration-200"
+                  style={{
+                    transform: `translate(${pos.x * 0.2}px, ${pos.y * 0.2}px)`,
+                  }}
+                />
+                <span
+                  className="duration-200 transition-all"
+                  style={{
+                    transform: `translate(${pos.x * 0.2}px, ${pos.y * 0.2}px)`,
+                  }}
+                >
+                  Send
+                </span>
               </>
             )}
           </button>

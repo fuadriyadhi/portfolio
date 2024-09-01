@@ -6,44 +6,44 @@ export default function OrbitingCirclesDemo() {
       <span className="pointer-events-none select-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-black">Skill</span>
 
       {/* Inner Circles */}
-      <OrbitingCircles className="size-[30px] border-none bg-transparent" duration={20} delay={20} radius={80}>
+      <OrbitingCircles className="size-[30px] border-none bg-transparent" duration={20} delay={20} radius={window.innerWidth > 768 ? 80 : 80}>
         <Icons.laravel />
       </OrbitingCircles>
-      <OrbitingCircles className="size-[30px] border-none bg-transparent" duration={20} delay={10} radius={80}>
+      <OrbitingCircles className="size-[30px] border-none bg-transparent" duration={20} delay={10} radius={window.innerWidth > 768 ? 80 : 80}>
         <Icons.laravel />
       </OrbitingCircles>
-      <OrbitingCircles className="size-[30px] border-none bg-transparent" duration={20} delay={5} radius={80}>
+      <OrbitingCircles className="size-[30px] border-none bg-transparent" duration={20} delay={5} radius={window.innerWidth > 768 ? 80 : 80}>
         <Icons.laravel />
       </OrbitingCircles>
-      <OrbitingCircles className="size-[30px] border-none bg-transparent" duration={20} delay={-5} radius={80}>
+      <OrbitingCircles className="size-[30px] border-none bg-transparent" duration={20} delay={-5} radius={window.innerWidth > 768 ? 80 : 80}>
         <Icons.laravel />
       </OrbitingCircles>
 
       {/* Middle Circles (reverse) */}
-      <OrbitingCircles className="size-[50px] border-none bg-transparent" radius={150} duration={20} delay={30}>
+      <OrbitingCircles className="size-[30px] border-none bg-transparent" radius={window.innerWidth > 768 ? 150 : 130} duration={20} delay={30}>
         <Icons.tailwind />
       </OrbitingCircles>
-      <OrbitingCircles className="size-[50px] border-none bg-transparent" radius={150} duration={20} delay={25}>
+      <OrbitingCircles className="size-[30px] border-none bg-transparent" radius={window.innerWidth > 768 ? 150 : 130} duration={20} delay={25}>
         <Icons.css />
       </OrbitingCircles>
-      <OrbitingCircles className="size-[50px] border-none bg-transparent" radius={150} duration={20} delay={20}>
+      <OrbitingCircles className="size-[30px] border-none bg-transparent" radius={window.innerWidth > 768 ? 150 : 130} duration={20} delay={20}>
         <Icons.bootstrap />
       </OrbitingCircles>
-      <OrbitingCircles className="size-[50px] border-none bg-transparent" radius={150} duration={20} delay={15}>
+      <OrbitingCircles className="size-[30px] border-none bg-transparent" radius={window.innerWidth > 768 ? 150 : 130} duration={20} delay={15}>
         <Icons.figma />
       </OrbitingCircles>
 
       {/* Outer Circles (reverse) */}
-      <OrbitingCircles className="size-[50px] border-none bg-transparent" radius={210} duration={20} delay={20} reverse>
+      <OrbitingCircles className="size-[35px] border-none bg-transparent" radius={window.innerWidth > 768 ? 210 : 170} duration={20} delay={20} reverse>
         <Icons.javascript />
       </OrbitingCircles>
-      <OrbitingCircles className="size-[50px] border-none bg-transparent" radius={210} duration={20} delay={15} reverse>
+      <OrbitingCircles className="size-[35px] border-none bg-transparent" radius={window.innerWidth > 768 ? 210 : 170} duration={20} delay={15} reverse>
         <Icons.html />
       </OrbitingCircles>
-      <OrbitingCircles className="size-[50px] border-none bg-transparent" radius={210} duration={20} delay={10} reverse>
+      <OrbitingCircles className="size-[35px] border-none bg-transparent" radius={window.innerWidth > 768 ? 210 : 170} duration={20} delay={10} reverse>
         <Icons.react />
       </OrbitingCircles>
-      <OrbitingCircles className="size-[50px] border-none bg-transparent" radius={210} duration={20} delay={5} reverse>
+      <OrbitingCircles className="size-[35px] border-none bg-transparent" radius={window.innerWidth > 768 ? 210 : 170} duration={20} delay={5} reverse>
         <Icons.vite />
       </OrbitingCircles>
     </div>

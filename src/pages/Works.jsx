@@ -25,7 +25,7 @@ export default function Works() {
     <div className="works w-full mb-10">
       <div className="flex flex-col justify-center items-center">
         <div data-aos="fade-up" data-aos-duration="1000">
-          <h1 className="font-bold text-[38px] w-[600px] pt-[70px] capitalize text-center">
+          <h1 className="font-bold text-[2.5rem] pt-[70px] capitalize text-center">
             Own <span className="slogan">Portfolio</span> Section
           </h1>
         </div>
