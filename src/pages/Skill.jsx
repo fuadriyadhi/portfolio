@@ -6,11 +6,11 @@ export default function Skill() {
     <>
       <div className="about min-h-full w-full">
         <div className="flex flex-col justify-center items-center">
-          <div data-aos="fade-up" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
             <h1 className="font-bold text-[2.5rem] pt-[70px] capitalize text-center">Skill & Experience</h1>
           </div>
         </div>
-        <div className="container flex flex-wrap justify-center lg:gap-[80px]">
+        <div className="container flex flex-wrap justify-center lg:gap-[80px]" data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
           <div className="OrbitingCircler">
             <OrbitingCircle />
           </div>

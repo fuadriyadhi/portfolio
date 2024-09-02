@@ -59,7 +59,7 @@ export default function ContactForm() {
 
   return (
     <>
-      <form ref={formRef} onSubmit={handleSubmit} name="submit-to-google-sheet" className="max-w-lg">
+      <form data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true" ref={formRef} onSubmit={handleSubmit} className="max-w-lg">
         <div className="flex flex-col gap-3 w-full">
           {alert && <div className="my-alert text-green-500 mt-4 items-center">Message sent successfully!</div>}
           <div className="flex flex-col gap-2">

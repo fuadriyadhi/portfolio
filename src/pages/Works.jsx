@@ -24,12 +24,12 @@ export default function Works() {
   return (
     <div className="works w-full mb-10">
       <div className="flex flex-col justify-center items-center">
-        <div data-aos="fade-up" data-aos-duration="1000">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
           <h1 className="font-bold text-[2.5rem] pt-[70px] capitalize text-center">
             Own <span className="slogan">Portfolio</span> Section
           </h1>
         </div>
-        <div className="card">
+        <div className="card" data-aos="fade-up" data-aos-duration="1000">
           <div className="mt-10">
             <div className="flex flex-wrap justify-center gap-10 w-[70%] mx-auto">
               {dataSkill.slice(0, visibleCount).map((item) => (
@@ -44,7 +44,7 @@ export default function Works() {
               </button>
             ) : (
               visibleCount < dataSkill.length && (
-                <button onClick={handleLoadMore} className="more font-bold text-[13px] py-1.5 px-4 rounded-lg bg-blue-500 text-white">
+                <button onClick={handleLoadMore} className="more font-bold text-[13px] py-1.5 px-4 rounded-lg text-white">
                   Show More
                 </button>
               )

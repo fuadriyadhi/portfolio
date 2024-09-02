@@ -6,7 +6,7 @@ export default function Contact() {
     <>
       <div className="contact relative lg:h-[100vh] w-full">
         <div className="flex flex-col justify-center items-center">
-          <div data-aos="fade-up" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
             <h1 className="font-bold text-[2.5rem] w-[600px] pt-[70px] capitalize text-center">contact</h1>
           </div>
           <ContactForm />
