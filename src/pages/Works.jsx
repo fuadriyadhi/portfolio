@@ -33,13 +33,13 @@ export default function Works() {
           <div className="mt-10">
             <div className="flex flex-wrap justify-center gap-10 w-[70%] mx-auto">
               {dataSkill.slice(0, visibleCount).map((item) => (
-                <WorkCard key={item.id} title={item.title} content={item.content} image={item.image} link={item.link} />
+                <WorkCard key={item.id} title={item.title} content={item.content} image={item.image} link={item.link} repo={item.repo} />
               ))}
             </div>
           </div>
           <div className="flex justify-center mt-8">
             {isExpanded ? (
-              <button onClick={handleShowLess} className="more font-bold text-[13px] py-1.5 px-4 rounded-lg bg-red-500 text-white">
+              <button onClick={handleShowLess} className="more font-bold text-[13px] py-1.5 px-4 rounded-lg text-white">
                 Show Less
               </button>
             ) : (

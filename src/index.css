@@ -147,7 +147,11 @@ img {
   color: #5a616c;
 }
 
-
+@media (max-width: 1024px) {
+  .footer {
+    min-width: 600px;
+  }
+}
 
 /* Gaya untuk tablet */
 @media screen and (min-width: 200px) and (max-width: 896px) {
@@ -183,11 +187,11 @@ img {
     width: 20rem;
   }
 
-  .exp-3 {
+  .exp-2 {
     margin-bottom: 50px;
   }
 
-  .contact {
-    margin-bottom: 100px;
+  .footer {
+    min-width: 300px;
   }
 }
