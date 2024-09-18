@@ -1,5 +1,7 @@
 import fe from "../assets/skill-img/undangan.png";
 import bc from "../assets/skill-img/boring_chat.png";
+import gb from "../assets/skill-img/goblog.png";
+import mas from "../assets/skill-img/mas.png";
 
 export default [
   {
@@ -7,7 +9,7 @@ export default [
     title: "Undangan Online",
     content: "Membuat ungandan online menggunakan native HTML, CSS, Javascript.",
     image: fe,
-    link: "/skill/html",
+    link: "https://undanganpernikahan-online.vercel.app/",
     repo: "https://github.com/fuadriyadhi",
   },
   {
@@ -22,23 +24,23 @@ export default [
     id: 3,
     title: "Go Blogs",
     content: "Membuat Simple Blog menggunakan Vite Vanilla JS dan Tailwind  ",
-    image: fe,
-    link: "/skill/express",
+    image: gb,
+    link: "#",
     repo: "https://github.com/fuadriyadhi",
   },
   {
     id: 4,
     title: "MAS AL-JIHAD",
     content: "Web Landing Page profil Sekolah Mas Al-Jihad menggunakan HTML, CSS, Javascript, Bootstrap.",
-    image: fe,
-    link: "/skill/design",
+    image: mas,
+    link: "https://masaljihad.vercel.app/",
     repo: "https://github.com/fuadriyadhi",
   },
   {
     id: 5,
     title: "UI/UX Boring Chat App",
     content: "Design Prototype Boring Chat App menggunakan aplikasi Figma.",
-    image: fe,
+    image: bc,
     link: "/skill/design",
     repo: "https://github.com/fuadriyadhi",
   },

@@ -18,13 +18,13 @@ export default function Skill() {
             <div className="exp-1">
               <p className="font-bold">2021-2023</p>
               <h2>JVALLEY INDONESIA</h2>
-              <div className="cpt text-sm w-[400px]">JValley adalah komunitas belajar pemrograman yang ditujukan untuk pemula maupun mereka yang sudah mulai mempelajari pemrograman. Saya berperan sebagai anggota di JValley. </div>
+              <div className="cpt text-sm w-[400px]">JValley is a programming learning community aimed at beginners as well as those who have already started learning programming. I serve as a member of JValley. </div>
             </div>
             <div className="exp-2 mt-8">
               <p className="font-bold">2022 - 2023</p>
               <h2>PT. SABANG DIGITAL INDONESIA</h2>
               <div className="cpt text-sm w-[400px]">
-                Selama kegiatan Praktik Kerja lapangan saya memiliki peran dalam proses pembuatan website presensi, bertanggung jawab untuk merancang dalam pengembangan sistem yang mendukung operasional efisien di sisi backend.
+                During my internship, I was involved in the development of an presensi website, where I was responsible for designing and developing the system to ensure efficient backend operations.
               </div>
             </div>
           </div>
