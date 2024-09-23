@@ -13,7 +13,7 @@ function Card() {
     <>
       <div className="flex flex-wrap justify-center gap-12 space-x-4">
         {cards.map((card, index) => (
-          <div key={index} className="max-w-sm" data-aos="fade-up" data-aos-mirror="true" data-aos-duration="1000">
+          <div key={index} className="max-w-sm" data-aos="fade-up" data-aos-mirror="true" data-aos-duration="1000" data-aos-offset="100">
             <div className="transform transition-transform duration-500 hover:scale-105">
               <img className="w-[200px] rounded-md" src={card.image} alt={card.caption} />
               <div className="py-4">
