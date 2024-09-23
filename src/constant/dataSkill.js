@@ -7,7 +7,7 @@ export default [
   {
     id: 1,
     title: "Undangan Online",
-    content: "Membuat ungandan online menggunakan native HTML, CSS, Javascript.",
+    content: "Online Invitation using native HTML, CSS, and JavaScript.",
     image: fe,
     link: "https://undanganpernikahan-online.vercel.app/",
     repo: "https://github.com/fuadriyadhi",
@@ -15,7 +15,7 @@ export default [
   {
     id: 2,
     title: "Boring Chat App",
-    content: "Membuat single app menggunakan React JS dan Tailwind CSS, Firebase.",
+    content: "Single App using React JS, Tailwind CSS, and Firebase.",
     image: bc,
     link: "https://boring-chat-app.vercel.app/",
     repo: "https://github.com/fuadriyadhi",
@@ -23,7 +23,7 @@ export default [
   {
     id: 3,
     title: "Go Blogs",
-    content: "Membuat Simple Blog menggunakan Vite Vanilla JS dan Tailwind  ",
+    content: "Simple Blog using Vite, Vanilla JS, and Tailwind.",
     image: gb,
     link: "#",
     repo: "https://github.com/fuadriyadhi",
@@ -31,7 +31,7 @@ export default [
   {
     id: 4,
     title: "MAS AL-JIHAD",
-    content: "Web Landing Page profil Sekolah Mas Al-Jihad menggunakan HTML, CSS, Javascript, Bootstrap.",
+    content: "Web Landing Page for Mas Al-Jihad School Profile using HTML, CSS, JavaScript, and Bootstrap.",
     image: mas,
     link: "https://masaljihad.vercel.app/",
     repo: "https://github.com/fuadriyadhi",
@@ -39,9 +39,9 @@ export default [
   {
     id: 5,
     title: "UI/UX Boring Chat App",
-    content: "Design Prototype Boring Chat App menggunakan aplikasi Figma.",
+    content: "Design a Prototype for the Boring Chat App using Figma.",
     image: bc,
-    link: "/skill/design",
+    link: "/",
     repo: "https://github.com/fuadriyadhi",
   },
 ];
