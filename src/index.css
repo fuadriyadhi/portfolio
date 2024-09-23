@@ -11,10 +11,11 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   background-color: #e4e4e7;
   font-family: sans-serif;
   /* height: 50000px; */
@@ -155,8 +156,8 @@ img {
 
 /* Gaya untuk tablet */
 @media screen and (min-width: 200px) and (max-width: 896px) {
-  body {
-    overflow-x: hidden;
+  html {
+    overflow-x: hidden !important;
   }
 
   .navbar_menu {
