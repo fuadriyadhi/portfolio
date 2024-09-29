@@ -5,7 +5,7 @@ export default function SkillCard({ title, image, content, link, repo, multiLink
   const [showButton, setShowButton] = useState(false);
 
   return (
-    <div className="card-2 flex flex-col gap-2 w-[250px] p-[20px] rounded-lg shadow-lg relative">
+    <div data-aos="flip-up" data-aos-mirror="true" className="card-2 flex flex-col gap-2 w-[250px] p-[20px] rounded-lg shadow-lg relative">
       <div
         className="image-container relative"
         onMouseEnter={() => setShowButton(true)}
