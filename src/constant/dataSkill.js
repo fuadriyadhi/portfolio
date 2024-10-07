@@ -2,6 +2,7 @@ import fe from "../assets/skill-img/undangan.png";
 import bc from "../assets/skill-img/boring_chat.png";
 import gb from "../assets/skill-img/goblog.png";
 import mas from "../assets/skill-img/mas.png";
+import uiux from "../assets/skill-img/uiuxcb.png";
 
 export default [
   {
@@ -40,8 +41,8 @@ export default [
     id: 5,
     title: "UI/UX Boring Chat App",
     content: "Design a Prototype for the Boring Chat App using Figma.",
-    image: bc,
-    link: "/",
-    repo: "https://github.com/fuadriyadhi",
+    image: uiux,
+    link: "https://www.figma.com/design/Nc2MGUG4vfa3DaqjVhCJcc/boring-chat?node-id=0-1&t=Vwuc8oaHGj8P21nF-1",
+    repo: "https://www.figma.com/design/Nc2MGUG4vfa3DaqjVhCJcc/boring-chat?node-id=0-1&t=Vwuc8oaHGj8P21nF-1",
   },
 ];
