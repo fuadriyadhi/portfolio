@@ -21,10 +21,17 @@ export default function Skill() {
               <div className="cpt text-sm w-[400px]">JValley is a programming learning community aimed at beginners as well as those who have already started learning programming. I serve as a member of JValley. </div>
             </div>
             <div className="exp-2 mt-8">
-              <p className="font-bold">2022 - 2023</p>
+              <p className="font-bold">DEC 2022 - MAR 2023</p>
               <h2>PT. SABANG DIGITAL INDONESIA</h2>
               <div className="cpt text-sm w-[400px]">
                 During my internship, I was involved in the development of an presensi website, where I was responsible for designing and developing the system to ensure efficient backend operations.
+              </div>
+            </div>
+            <div className="exp-2 mt-8">
+              <p className="font-bold">NOV 2024 - FEB 2025</p>
+              <h2>GAO Tek Inc.</h2>
+              <div className="cpt text-sm w-[400px]">
+                During my internship, I worked as a UI/UX Designer. I was responsible for creating designs for both mobile and website platforms. My tasks included developing attractive and functional user interfaces.
               </div>
             </div>
           </div>
