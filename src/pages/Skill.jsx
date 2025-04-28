@@ -27,7 +27,7 @@ export default function Skill() {
                 During my internship, I was involved in the development of an presensi website, where I was responsible for designing and developing the system to ensure efficient backend operations.
               </div>
             </div>
-            <div className="exp-2 mt-8">
+            <div className="exp-3 mt-8">
               <p className="font-bold">NOV 2024 - FEB 2025</p>
               <h2>GAO Tek Inc.</h2>
               <div className="cpt text-sm w-[400px]">
