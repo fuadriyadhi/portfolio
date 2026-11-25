@@ -1,4 +1,3 @@
-import React from "react";
 import fe from "../assets/fe.png";
 import ui from "../assets/ui.gif";
 import be from "../assets/be.png";

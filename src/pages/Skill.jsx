@@ -14,20 +14,25 @@ export default function Skill() {
           <div className="OrbitingCircler">
             <OrbitingCircle />
           </div>
-          <div className="experience flex flex-col lg:mt-16">
+          <div className="experience flex flex-col lg:mt-12">
             <div className="exp-1">
+              <p className="font-bold">JULI 2025 - MARET 2026</p>
+              <h2>PT GRHA DIGITAL INDONESIA</h2>
+              <div className="cpt text-sm w-[400px]">Acted as a Junior Fullstack Developer, contributing to the development and maintenance of web applications, frontend and backend integration, and POS system enhancements, including receipt and return printing functionality.</div>
+            </div>
+            <div className="exp-2 mt-4">
               <p className="font-bold">2021-2023</p>
               <h2>JVALLEY INDONESIA</h2>
               <div className="cpt text-sm w-[400px]">JValley is a programming learning community aimed at beginners as well as those who have already started learning programming. I serve as a member of JValley. </div>
             </div>
-            <div className="exp-2 mt-8">
+            <div className="exp-3 mt-4">
               <p className="font-bold">DEC 2022 - MAR 2023</p>
               <h2>PT. SABANG DIGITAL INDONESIA</h2>
               <div className="cpt text-sm w-[400px]">
                 During my internship, I was involved in the development of an presensi website, where I was responsible for designing and developing the system to ensure efficient backend operations.
               </div>
             </div>
-            <div className="exp-3 mt-8">
+            <div className="exp-4 mb-8 mt-4">
               <p className="font-bold">NOV 2024 - FEB 2025</p>
               <h2>GAO Tek Inc.</h2>
               <div className="cpt text-sm w-[400px]">

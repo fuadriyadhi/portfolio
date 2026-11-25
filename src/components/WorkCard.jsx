@@ -12,7 +12,13 @@ export default function SkillCard({ title, image, content, link, repo, multiLink
         onMouseLeave={() => setShowButton(false)}
         onClick={() => setShowButton(!showButton)} // optional: toggle on click
       >
-        <img src={image} alt={title} className="w-[230px] h-[230px] object-cover rounded-lg" />
+        <img
+          src={image}
+          alt={title}
+          className={`w-[230px] h-[230px] object-cover rounded-lg transition-all duration-500 ${
+            showButton ? "blur-[2px]" : "blur-none"
+          }`}
+        />
         <a
           href={repo}
           target="_blank"
